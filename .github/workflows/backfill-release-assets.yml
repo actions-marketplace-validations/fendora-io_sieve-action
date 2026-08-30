@@ -73,7 +73,7 @@ jobs:
 
       - name: Generate SBOM
         if: inputs.include_sbom
-        uses: anchore/sbom-action@e11c554f704a0b820cbf8c51673f6945e0731532 # v0.20.0
+        uses: anchore/sbom-action@aa80c8c5bd439a416a62804f2151ab38c671a638 # v0.24.1
         with:
           image: ghcr.io/fendora-io/sieve-action@${{ steps.image.outputs.digest }}
           output-file: sbom.spdx.json
