@@ -22,4 +22,4 @@ jobs:
         with:
           languages: python
 
-      - uses: github/codeql-action/analyze@f6a16bef8e5c39e398e4da16862d381f76824ac6 # v3
+      - uses: github/codeql-action/analyze@6f530319d8c989665d0835536ec9571735fd2008 # v3
